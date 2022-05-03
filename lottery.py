@@ -112,6 +112,7 @@ class draft_lottery(object):
             ax[i].text(1.5, 80, f'{team} ({odds[i]})',
                 fontsize=20, color=colors[i], alpha=0.5,
                 ha='center', va='center')
+            # ax[i].set(ylabel='% of drafts receiving pick')
 
         plt.suptitle(f'Simulated Draft Outcomes (n={n})', fontsize=18)
         plt.ylim(0,100)
