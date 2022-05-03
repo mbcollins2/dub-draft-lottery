@@ -1,2 +1,2 @@
-# dub-draft-lottery
-Repo for Dub Dynasty Draft Lottery program.
+# NBA Draft Lottery Simulator
+This program implements the NBA draft lottery process as of 2021 as desribed on NBA.com. This implementation is specific to a fantasy backetball league in which I participate. In this league, there are only four teams that are in scope for the lottery, therefore, this lottery application has been modified from the actual NBA lottery process to only support up to four teams. 
